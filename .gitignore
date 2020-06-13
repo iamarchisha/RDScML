@@ -1,23 +1,4 @@
 # Downloaded data
-data/*.zip
-data/*.csv
-data/cats_and_dogs_filtered
-data/horse-or-human
-data/rps
-data/rps-test-set
-data/validation-horse-or-human
-data/*.json
-data/*.txt
-data/*.h5
-*.h5
-Natural Language Processing/*.tsv
-Browser-Based Models (TensorFlow.js)/*.json
-Browser-Based Models (TensorFlow.js)/*.bin
-*.tflite
-*.txt
-*.zip
-Device-Based Models (TensorFlow Lite)/Training Models and Converting to TFLite/test_images/
-Device-Based Models (TensorFlow Lite)/Training Models and Converting to TFLite/saved_model/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
