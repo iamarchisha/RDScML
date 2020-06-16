@@ -10,6 +10,62 @@ These projects on solving would reflect the detailed knowledge and understanding
 2. Building Visual Deliverables
 3. Natural Language Processing Applications
 
+## Timeline
+The following timeline can be followed by any learner. It is highly recommended to study these topics by reading articles on Medium, Towards Data Science, IEEE research papers and other scholarly articles. Popular YouTube channels can also be followed, like
+1. Machine Learning Recipes with Josh Gordon
+2. Natural Language Processing Zero to Hero by Laurence Moroney
+3. Deeplearning.ai
+4. Machine Learning- Andrew Ng, Stanford University (full course)
+5. StatQuest with Josh Starmer
+Week 1-4 covers the basic prerequisite. This can be skipped if you are not a beginner in this field.
+
+#### Part I
+Week 1: Getting started with Python
+
+Week 2: Manipulating data using Pandas and NumPy
+
+Week 3: Data visualisation techniques
+
+Week 4: Concept Application I: Solve the Great Energy Prediction problem statements (perform data exploration only)
+
+#### Part II
+Week 5: Probability and Statistics
+
+Week 6: Linear Models
+
+Week 7: Regularisation
+
+Week 8: Concept Application I: Complete solving the Great Energy Prediction problem statement
+
+#### Part III
+Week 9: EDA and Feature engineering
+
+Week 10: Classification models
+
+Week 11: Decision Trees
+
+Week 12: Concept Application II: Solve COVID-19 visualisation problem statement
+
+#### Part IV
+
+Week 13: Ensemble methods
+
+Week 14: Clustering Algorithms
+
+Week 15: Support vector machines
+
+Week 16: Introduction to NLP
+
+#### Part V
+
+Week 17: Topic modelling
+
+Week 18: Sentiment analysis
+
+Week 19: Concept Application III: Solve the problem statement on Quora Insincere Questions Classification
+
+Week 20: Concept Application III: Solve the problem statement on Quora Insincere Questions Classification (cont.)
+
 ## Contribution Guidelines
 #### Working on an issue:
 1. `git remote add upstream git@github.com:archisha-chandel/RDScML.git`, to be done once only.
