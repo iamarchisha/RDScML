@@ -3,7 +3,9 @@ An exhaustive study guide to learn machine learning concepts from scratch. It fo
 1. Great Energy Prediction
 2. COVID-19 Visualization
 3. Quora Insincere Questions Classification
+
 These projects on solving would reflect the detailed knowledge and understanding of three main data science aspects:
+
 1. Algorithmic Knowledge
 2. Building Visual Deliverables
 3. Natural Language Processing Applications
