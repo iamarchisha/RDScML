@@ -1,5 +1,5 @@
 # Roadmap to Data Science and Machine Learning (RDScML)
-An exhaustive study guide to learn machine learning concepts from scratch. It focuses on preparing an individual through detailed exploration and hands-on implementation of the concepts. The concepts are to be learned by solving the issues that are brilliantly crafted by experienced personnel. Post this, there are three major projects:
+An exhaustive study guide to learn machine learning concepts from scratch. It focuses on preparing an individual through detailed exploration and hands-on implementation of the concepts. The concepts are to be learned by solving the issues that are brilliantly crafted by experienced personnel. The solutions submitted via pull requests will be reviewed carefully and constructive feedback will be given. Post this, there are three major projects:
 1. Great Energy Prediction
 2. COVID-19 Visualization
 3. Quora Insincere Questions Classification
