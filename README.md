@@ -1,5 +1,12 @@
 # Roadmap to Data Science and Machine Learning (RDScML)
-Built as a guide for anyone who is new to data science and machine learning; it provides a detailed guide, that is- from everything about Python, NumPy, Pandas, word2vec, NLTK etc to using these APIs to build projects and build solution to business problems.
+An exhaustive study guide to learn machine learning concepts from scratch. It focuses on preparing an individual through detailed exploration and hands-on implementation of the concepts. The concepts are to be learned by solving the issues that are brilliantly crafted by experienced personnel. Post this, there are three major projects:
+1. Great Energy Prediction
+2. COVID-19 Visualization
+3. Quora Insincere Questions Classification
+These projects on solving would reflect the detailed knowledge and understanding of three main data science aspects:
+1. Algorithmic Knowledge
+2. Building Visual Deliverables
+3. Natural Language Processing Applications
 
 ## Contribution Guidelines
 #### Working on an issue:
