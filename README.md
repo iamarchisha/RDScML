@@ -12,14 +12,7 @@ These projects on solving would reflect the detailed knowledge and understanding
 
 ## Timeline
 
-The following timeline can be followed by any learner. It is highly recommended to study these topics by reading articles on Medium, Towards Data Science, IEEE research papers and other scholarly articles. Popular YouTube channels can also be followed, like
-1. Machine Learning Recipes with Josh Gordon
-2. Natural Language Processing Zero to Hero by Laurence Moroney
-3. Deeplearning.ai
-4. Machine Learning- Andrew Ng, Stanford University (full course)
-5. StatQuest with Josh Starmer
-Week 1-4 covers the basic prerequisite. This can be skipped if you are not a beginner in this field.
-
+The following timeline can be followed by any learner:
 ### Part I
 
 - Week 1: Getting started with Python
@@ -171,7 +164,7 @@ take are:
 - Install [git](https://git-scm.com/downloads) on your computer
 - Fork the repo on Github (ie. make your own personal copy)
 - Clone your fork to your local computer
-- Set remote origin (https://github.com/<_user_>/PRESC.git) and upstream (https://github.com/archisha-chandel/RDScML.git)
+- Set remote origin (https://github.com/<_user_>/RDScML.git) and upstream (https://github.com/archisha-chandel/RDScML.git)
 - Create a new branch for every issue or new work that you do.
 (To avoid merge conflicts keep your work in a separate folder in the same branch if it contains more than a few files.)
 - Commit changes locally on your computer
@@ -211,18 +204,11 @@ unfamiliar with:
 - This [video tutorial series](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx) on Youtube may also be helpful
 - [First Contributions](https://github.com/firstcontributions/first-contributions#first-contributions) is a good place to actually practise and put your understanding to test. Feel free to make mistakes as you go along learning to make your first contribution. 
 
-#### Working on an issue:
-1. `git remote add upstream git@github.com:archisha-chandel/RDScML.git`, to be done once only.
-2. `git pull upstream master`
-3. `git branch <name_of_the_branch>` OR `git checkout -b <new_branch_name>`
-4. Create a titled .ipynb file which contains the details as explained by the issue or make the changes that you want.
-5. `git status`
-6. `git add <file_name>`, stage only those files that you want to commit.
-7. `git commit -m "<commit_message>"`, eg: git commit -m "solves issue 2" or git commit -m "adds notebook"
-8. `git push`
-
-#### Creating a pull request:
-- Specify the issue number that the pull request is fixing in the description section:
-`Fixes: #<issue_number>`
-- Give a suitable title to the pull request.
-- Also, add a few statements explaining what the pull request is about.
+## Resources
+It is highly recommended to study these topics by reading articles on Medium, Towards Data Science, IEEE research papers and other scholarly articles. Popular YouTube channels can also be followed, like
+1. Machine Learning Recipes with Josh Gordon
+2. Natural Language Processing Zero to Hero by Laurence Moroney
+3. Deeplearning.ai
+4. Machine Learning- Andrew Ng, Stanford University (full course)
+5. StatQuest with Josh Starmer
+Week 1-4 covers the basic prerequisite. This can be skipped if you are not a beginner in this field.
