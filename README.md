@@ -67,6 +67,74 @@ Week 19: Concept Application III: Solve the problem statement on Quora Insincere
 Week 20: Concept Application III: Solve the problem statement on Quora Insincere Questions Classification (cont.)
 
 ## Contribution Guidelines
+To keep the project structure and review process manageable at this initial
+stage, please structure your contributions using the following steps:
+
+- Create a directory with your username in the [`dev`](./dev) dir
+- Structure your code into one or more Python modules in that directory
+    * Code should be well-documented. Each function should include a docstring.
+- Include a [Jupyter
+  notebook](https://jupyter-notebook.readthedocs.io/en/stable/) that
+  demonstrates a run of your code showing
+  printed output, a graph, etc.
+    * Code cells in the notebook should only call functions defined in your
+      modules. Please do not include any actual code logic in the notebook
+      itself.
+    * The notebooks should be well-documented. Ideally, each code cell should
+      be preceded by a Markdown cell describing why you have included the code
+      cell. It can also include commments on the output generated, eg.
+      describing features of a graph. These text cells should be more
+      high-level than actual code comments, describing the narrative or thought
+      process behind your contribution.
+
+We request that contributions be structured in this way prior to getting
+reviewed. If you make subsequent contributions, you can include them in the same
+directory and reuse module code, but each contribution should include a separate
+demonstration notebook.
+
+If you wish to build on someone else's contribution, you can import code from
+their modules into yours. Please do not submit PRs directly modifying code from
+other contributions at this point, unless to resolve errors or typos.
+### Issues
+Tasks are managed using the [GitHub issue tracker](https://github.com/mozilla/PRESC/issues).
+
+- As issues represent general exploratory tasks at this point, they will
+  generally not be assigned to a single person.
+- If you want to work on a task, drop a comment in the issue.
+- You are welcome to make a contribution to an issue even if others are
+  already working on it. You may also expand on someone else's work, eg.
+  testing out the methodology with different datasets or models.
+- As the project matures, we may start filing targeted issues, eg. to fix
+  specific bugs, which will get assigned to specific person
+- You are also welcome to contribute your own issues if there is a direction you
+  would like to explore relating to the project focus.
+### Contributions
+Contributions can be made by submitting a [pull request](https://help.github.com/articles/using-pull-requests) against this repository. Learn more about [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+- We ask each Uplift participant to make a contribution completing
+  [#2](https://github.com/archisha-chandel/RDScML/issues/2) (train and test a
+  classification/ regression model). This will help you to become familiar with machine
+  learning and the tools if you are not already. Please submit as a PR following
+  the [guidelines](#contribution-guidelines) above.
+    * This task __must__ be completed in order to be considered as a participant on
+      this project
+- If you would like initial feedback on your contribution before it is ready for
+  submission, you may open a PR with "WIP:" at the start of the title and
+  request review. This tag ('work in progress') indicates that the PR is not
+  ready to be merged. When it is ready for final submission, you can modify the
+  title to remove the "WIP:" tag.
+- Should you use a separate jupyter notebook for comparing different models? If
+  you had a PR merged in to satisfy issue #2 already and are now comparing
+  models for another issue, then a new notebook would be helpful. That being
+  said, a notebook should satisfy the following criteria:
+
+    a) it should run beginning to end without error
+
+    b) it should be easy to follow and have a clear narrative presenting context,
+   data, results, and interpretation. This may mean some redundancy in code, but
+   will often mean that your notebook is much more helpful to other people
+   looking at it in isolation (including reviewers).
+
 #### Working on an issue:
 1. `git remote add upstream git@github.com:archisha-chandel/RDScML.git`, to be done once only.
 2. `git pull upstream master`
