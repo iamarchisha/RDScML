@@ -11,6 +11,7 @@ These projects on solving would reflect the detailed knowledge and understanding
 3. Natural Language Processing Applications
 
 ## Timeline
+
 The following timeline can be followed by any learner. It is highly recommended to study these topics by reading articles on Medium, Towards Data Science, IEEE research papers and other scholarly articles. Popular YouTube channels can also be followed, like
 1. Machine Learning Recipes with Josh Gordon
 2. Natural Language Processing Zero to Hero by Laurence Moroney
@@ -19,54 +20,43 @@ The following timeline can be followed by any learner. It is highly recommended 
 5. StatQuest with Josh Starmer
 Week 1-4 covers the basic prerequisite. This can be skipped if you are not a beginner in this field.
 
-#### Part I
-Week 1: Getting started with Python
+### Part I
 
-Week 2: Manipulating data using Pandas and NumPy
+- Week 1: Getting started with Python
+- Week 2: Manipulating data using Pandas and NumPy
+- Week 3: Data visualisation techniques
+- Week 4: Concept Application I: Solve the Great Energy Prediction problem statements (perform data exploration only)
 
-Week 3: Data visualisation techniques
+### Part II
 
-Week 4: Concept Application I: Solve the Great Energy Prediction problem statements (perform data exploration only)
+- Week 5: Probability and Statistics
+- Week 6: Linear Models
+- Week 7: Regularisation
+- Week 8: Concept Application I: Complete solving the Great Energy Prediction problem statement
 
-#### Part II
-Week 5: Probability and Statistics
+### Part III
 
-Week 6: Linear Models
+- Week 9: EDA and Feature engineering
+- Week 10: Classification models
+- Week 11: Decision Trees
+- Week 12: Concept Application II: Solve COVID-19 visualisation problem statement
 
-Week 7: Regularisation
+### Part IV
 
-Week 8: Concept Application I: Complete solving the Great Energy Prediction problem statement
+- Week 13: Ensemble methods
+- Week 14: Clustering Algorithms
+- Week 15: Support vector machines
+- Week 16: Introduction to NLP
 
-#### Part III
-Week 9: EDA and Feature engineering
+### Part V
 
-Week 10: Classification models
-
-Week 11: Decision Trees
-
-Week 12: Concept Application II: Solve COVID-19 visualisation problem statement
-
-#### Part IV
-
-Week 13: Ensemble methods
-
-Week 14: Clustering Algorithms
-
-Week 15: Support vector machines
-
-Week 16: Introduction to NLP
-
-#### Part V
-
-Week 17: Topic modelling
-
-Week 18: Sentiment analysis
-
-Week 19: Concept Application III: Solve the problem statement on Quora Insincere Questions Classification
-
-Week 20: Concept Application III: Solve the problem statement on Quora Insincere Questions Classification (cont.)
+- Week 17: Topic modelling
+- Week 18: Sentiment analysis
+- Week 19: Concept Application III: Solve the problem statement on Quora Insincere Questions Classification
+- Week 20: Concept Application III: Solve the problem statement on Quora Insincere Questions Classification (cont.)
 
 ## Contribution Guidelines
+
 To keep the project structure and review process manageable at this initial
 stage, please structure your contributions using the following steps:
 
@@ -95,8 +85,10 @@ demonstration notebook.
 If you wish to build on someone else's contribution, you can import code from
 their modules into yours. Please do not submit PRs directly modifying code from
 other contributions at this point, unless to resolve errors or typos.
+
 ### Issues
-Tasks are managed using the [GitHub issue tracker](https://github.com/mozilla/PRESC/issues).
+
+Tasks are managed using the [GitHub issue tracker](https://github.com/archisha-chandel/RDScML/issues).
 
 - As issues represent general exploratory tasks at this point, they will
   generally not be assigned to a single person.
@@ -108,7 +100,9 @@ Tasks are managed using the [GitHub issue tracker](https://github.com/mozilla/PR
   specific bugs, which will get assigned to specific person
 - You are also welcome to contribute your own issues if there is a direction you
   would like to explore relating to the project focus.
+
 ### Contributions
+
 Contributions can be made by submitting a [pull request](https://help.github.com/articles/using-pull-requests) against this repository. Learn more about [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 - We ask each Uplift participant to make a contribution completing
@@ -134,6 +128,88 @@ Contributions can be made by submitting a [pull request](https://help.github.com
    data, results, and interpretation. This may mean some redundancy in code, but
    will often mean that your notebook is much more helpful to other people
    looking at it in isolation (including reviewers).
+
+## Getting Started
+
+1. Install [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://conda.io/miniconda.html).
+
+2. Fork this repository and clone it into your local machine(using git CLI).
+
+3. Setup and activate environment:
+
+```
+ $ conda env create -f environment.yml
+ $ conda activate rdscml
+```
+
+
+__For Windows:__ Open anaconda prompt and `cd` into the folder where you cloned the repository
+
+```
+cd RDScML
+```
+then type the above commands to activate the environment.
+
+
+4. Run Jupyter. The notebook will open in your browser at `localhost:8888` by default.
+
+```
+ $ jupyter notebook
+```
+After running this commands you will see the notebook containing the datasets and now you can start working with it.
+
+We recommend everyone start by working on
+[#2](https://github.com/archisha-chandel/RDScML/issues/2).
+
+
+### Getting started with GitHub
+
+The git/GitHub open-source workflow can be rather confusing if you haven't used
+it before. To make a contribution to the project, the general steps you need to
+take are:
+
+- Install [git](https://git-scm.com/downloads) on your computer
+- Fork the repo on Github (ie. make your own personal copy)
+- Clone your fork to your local computer
+- Set remote origin (https://github.com/<_user_>/PRESC.git) and upstream (https://github.com/archisha-chandel/RDScML.git)
+- Create a new branch for every issue or new work that you do.
+(To avoid merge conflicts keep your work in a separate folder in the same branch if it contains more than a few files.)
+- Commit changes locally on your computer
+- Push your changes to your fork on Github
+- Submit a pull request (PR) against the main repo from your fork.
+
+A few commands to start with everytime you work with a GIT repository:
+- `git fetch upstream master`
+- `git checkout FETCH_HEAD -b <new_branch_name>`
+- Make changes
+- `git status`
+This will show the files that have been modified, deleted or created
+- `git add .` (To add all the modified files)
+	OR
+  `git add <file_name>` (To add a specific file)
+- `git commit -m '<commit_message>'`
+- `git push`
+If you get an error message on executing the above command, enter the suggested `git push` command.
+
+Now, click on the link that you see once the `push` command is executed to create a Pull Request. While creating a Pull Request do mention `[ Fixes: #<issue_number> ]` in the description. This will link the issue to the Pull Request for which the latter is created.
+
+Once your Pull Request is merged do `git pull --rebase upstream master`. This will update your fork with local changes and the ones made from upstream. This is to ensure there are no file conflicts.
+
+Here are some resources to learn more about parts of this workflow you are
+unfamiliar with:
+
+- [GitHub Guides](https://guides.github.com/)
+    * In particular, the [git handbook](https://guides.github.com/introduction/git-handbook/) explains some of the basics of the version control system
+    * There is a [page](https://guides.github.com/activities/forking/)
+      explaining the forking/pull request workflow you will be using to
+      contribute.
+- The [Git Book](https://git-scm.com/book/en/v2) is much more detailed but a good reference
+    * The [Getting Started](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) section is worth reading
+    * There are also some [videos](https://git-scm.com/videos) on getting set up
+- This [repo](https://github.com/aSquare14/Git-Cheat-Sheet) by a previous
+  Outreachy contributor lists many other resources and tutorials.
+- This [video tutorial series](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx) on Youtube may also be helpful
+- [First Contributions](https://github.com/firstcontributions/first-contributions#first-contributions) is a good place to actually practise and put your understanding to test. Feel free to make mistakes as you go along learning to make your first contribution. 
 
 #### Working on an issue:
 1. `git remote add upstream git@github.com:archisha-chandel/RDScML.git`, to be done once only.
