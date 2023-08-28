@@ -25,3 +25,16 @@ def bayes(train_X, val_X, train_y, val_y):
     classifier.fit(train_X,train_y)
     predictions = classifier.predict(val_X)
     return mean_absolute_error(predictions, val_y)
+
+
+### Choosing the best model
+def find_smallest_key(dict_models):
+    smallest_float = float('inf')
+    smallest_key = None
+
+    for key, value in dict_models.items():
+        if value < smallest_float:
+            smallest_float = value
+            smallest_key = key
+
+    return smallest_key
